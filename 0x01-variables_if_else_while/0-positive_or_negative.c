@@ -24,5 +24,5 @@ void	check_neg_pos(int num) /*function to check positive number or negative*/
 	else if (num > 0)
 		printf("%d is positive\n", num);
 	else
-		printf("%d is_zero\n", num);
+		printf("%d is zero\n", num);
 }
