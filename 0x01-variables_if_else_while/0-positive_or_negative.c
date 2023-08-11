@@ -6,23 +6,23 @@
 /* betty style doc for function main goes there */
 void	check_neg_pos(int num);
 
-int main(void) /*main function*/
+int main(void) 
 {
 	int n;
 
 	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	check_neg_pos(n);
+	n = rand() - RAND_MAX / 2; /**get _ random number*/
+	check_neg_pos(n); /**check the number*/
 	/* your code goes there */
 	return (0);
 }
 
 void	check_neg_pos(int num) /*function to check positive number or negative*/
 	{
-	if (num < 0)
+	if (num < 0)/**check the number is less than zero*/
 		printf("%d is negative\n", num);
-	else if (num > 0)
+	else if (num > 0) /**check the number is more than zero*/
 		printf("%d is positive\n", num);
-	else
+	else /**check the number is equal zero*/
 		printf("%d is zero\n", num);
 }
