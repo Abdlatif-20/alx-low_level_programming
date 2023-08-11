@@ -3,7 +3,7 @@
 # include <stdio.h>
 /* more headers goes there */
 
-/* betty style doc for function main goes there */
+/*betty style doc for function main goes there */
 void	check_neg_pos(int num);
 
 int main(void) 
@@ -11,7 +11,7 @@ int main(void)
 	int n;
 
 	srand(time(0));
-	n = rand() - RAND_MAX / 2; /**get _ random number*/
+	n = rand() - RAND_MAX / 2; /**get random number*/
 	check_neg_pos(n); /**check the number*/
 	/* your code goes there */
 	return (0);
