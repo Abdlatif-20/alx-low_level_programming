@@ -5,7 +5,8 @@
 
 /* betty style doc for function main goes there */
 void	check_neg_pos(int num);
-int main(void)
+
+int main(void) /*main function*/
 {
 	int n;
 
@@ -16,12 +17,12 @@ int main(void)
 	return (0);
 }
 
-void	check_neg_pos(int num)
+void	check_neg_pos(int num) /*function to check positive number or negative*/
 	{
 	if (num < 0)
 		printf("%d is negative\n", num);
 	else if (num > 0)
 		printf("%d is positive\n", num);
 	else
-		printf("%d is_zero", num);
+		printf("%d is_zero\n", num);
 }
