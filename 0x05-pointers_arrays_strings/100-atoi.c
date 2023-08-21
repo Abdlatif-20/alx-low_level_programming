@@ -13,9 +13,7 @@ int _atoi(char *s)
 
 	res = 0;
 	sign = 1;
-	while ((*s >= 9 && *s <= 13) || *s == 32)
-		s++;
-	while (*s == '-' || *s == '+')
+	while ((*s >= 9 && *s <= 13) || *s == 32 || *s == '-' || *s == '+')
 	{
 		if (*s == '-')
 			sign = -1;
@@ -27,4 +25,9 @@ int _atoi(char *s)
 		s++;
 	}
 	return (sign * res);
+}
+#include <stdio.h>
+int main()
+{
+	printf("%d\n", _atoi("+++++ +-+ 2242454"));
 }
