@@ -1,8 +1,3 @@
-`IDENTIFY ERROR`![image](https://user-images.githubusercontent.com/105258746/190832836-b113fa0f-e26f-4db1-b8c5-d094c3dfd0a7.png) `ANALYZE ERROR`
-
-
-Debugging is the process of detecting and removing of existing and potential errors (also called as 'bugs') in a software code that can cause it to behave unexpectedly or crash.
-`YOU HAVE TO CRAETE YOUR PROTOTYPE ON YOUR main.h file FOR YOUR CODES TO WORK`
 
 ## File: 0-main.c
 In most projects, we often give you only one main file to test with. For example, this main file is a test for a postitive_or_negative() function similar to the one you worked with in an earlier C project:
