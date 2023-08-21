@@ -15,7 +15,7 @@ int _atoi(char *s)
 	sign = 1;
 	while ((*s >= 9 && *s <= 13) || *s == 32)
 		s++;
-	if (*s == '-' || *s == '+')
+	while (*s == '-' || *s == '+')
 	{
 		if (*s == '-')
 			sign = -1;
