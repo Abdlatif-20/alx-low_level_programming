@@ -26,8 +26,3 @@ int _atoi(char *s)
 	}
 	return (sign * res);
 }
-#include <stdio.h>
-int main()
-{
-	printf("%d\n", _atoi("+++++ +-+ 2242454"));
-}
